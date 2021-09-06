@@ -1,0 +1,151 @@
+/* global*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none
+}
+.contianer{
+    width: 85%;
+    margin: auto;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , p{
+    text-transform: capitalize;
+}
+:root{
+    --miancolor: #1b345c;
+    --supcolor: #d7a460;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+.mian-header{
+    padding: 10px;
+    height: auto;
+    background-color: var(--miancolor);
+}
+.mian-header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mian-header-content .lang .lang-list li{
+    display: inline-block;
+}
+.mian-header-content .lang .lang-list li h3{
+    color: #d7a460;
+}
+.mian-header-content .lang .lang-list li img{
+    display: block;
+    max-width: 20px;
+    margin-left: 5px;
+}
+.mian-header-content .media ul li{
+    display: inline-block;
+}
+.mian-header-content .media ul li a{
+    color: #d7a460;
+    margin-left: 5px;
+    transition: color 0.5s;
+}
+.mian-header-content .media ul li a:hover{
+    color: #fff;
+}
+.mian-header-content .mial a{
+    color: #d7a460;
+    font-size: 18px;
+}
+/*media for mian-header*/
+@media (max-width: 991px){
+    .mian-header-content{
+        display: block;
+        text-align: center;   
+    }
+    .mian-header-content .media{
+        margin: 10px 0;
+    }
+
+
+}
+
+
+
+
+}
+/*-------------------------------------------------------------------------------------------*/
+/*header*/
+.header{
+ 
+    border-bottom: 1px solid;
+    padding: 20px 0;
+    background-color: #eee;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content .logo-header{
+    width: 50%;
+}
+.header-content .logo-header img{
+    max-width: 180px;
+}
+.header-content .nav .list-item{
+    display: inline-block;
+}
+.header-content .nav .list-item a{
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--miancolor);
+}
+.header-content .nav .list-item a.activ{
+    color: var(--supcolor);
+}
+/*-----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
